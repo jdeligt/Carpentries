@@ -38,6 +38,6 @@ surveys_complete <- read_csv("data_output/surveys_complete.csv")
 ```
 
 -----
-The ful git lesson can be found here:
+The full git lesson can be found here:
 https://swcarpentry.github.io/git-novice/
 
