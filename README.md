@@ -2,6 +2,7 @@
 Snippets relating the carpentries curriculum
 
 -----
+```R
 # Data Carpentry for Ecologists - Day2 prep
 library(tidyverse)
 
@@ -27,7 +28,7 @@ surveys_complete <- surveys_complete %>%
 ## Export cleaned data
 dir.create("data_output")
 write_csv(surveys_complete, path = "data_output/surveys_complete.csv")
-
+```
 # --------------- Start of day 2 ---------------  
 
 # Load cleaned data
