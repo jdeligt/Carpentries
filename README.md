@@ -29,7 +29,10 @@ surveys_complete <- surveys_complete %>%
 dir.create("data_output")
 write_csv(surveys_complete, path = "data_output/surveys_complete.csv")
 ```
+------
+```R
 # --------------- Start of day 2 ---------------  
 
 # Load cleaned data
 surveys_complete <- read_csv("data_output/surveys_complete.csv")
+```
